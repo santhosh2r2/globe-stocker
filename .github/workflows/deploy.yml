@@ -30,9 +30,6 @@ jobs:
           name: github-pages
           path: client/dist
           retention-days: 1
-          if-no-files-found: error
-          compression-level: 6
-          overwrite: false
       
   deploy:
     needs: build
